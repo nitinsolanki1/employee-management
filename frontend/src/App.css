@@ -1,0 +1,22 @@
+.formPop{
+    position: absolute;
+    left: 36%;
+    top: 14%;
+    background: rgb(190, 188, 188);
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 547px;
+    height: 318px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.formPop input{
+    padding: 5px 10px;
+    border: none;
+    background-color: white;
+    width: 80%;
+    font-size: 15px;
+}
