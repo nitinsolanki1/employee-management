@@ -34,7 +34,6 @@ function App() {
   }
   const getTask = async () => {
     const response = await axios.get("/task")
-    console.log("response" ,response)
     setTask(response.data.result)
 
   }
@@ -48,7 +47,6 @@ function App() {
     }
     getSummary()
     getTask()
-
   }
   useEffect(() => {
     getSummary()
